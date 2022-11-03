@@ -1,0 +1,21 @@
+footer {
+  width: 100%;
+  background-color: rgb(95, 95, 95);
+  color: white;
+  font-family: Verdana;
+  height: 100px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+footer:first-child {
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 20px;
+}
+
+footer:last-child {
+  grid-column: 1;
+  grid-row: 2;
+}
